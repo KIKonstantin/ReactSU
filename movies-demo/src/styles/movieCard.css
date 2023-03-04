@@ -1,0 +1,39 @@
+.movieCard {
+    max-width: 400px;
+    min-width: 200px;
+    /* background-color: rgb(214, 251, 242); */
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    margin-bottom: 12px;
+}
+
+.movieCard .movie-title {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.movieCard img {
+    width: 100%;
+    border-radius: 5px;
+    object-fit: contain;
+}
+
+.movieCard .movie-content p {
+    padding-bottom: 24px;
+    border-bottom: 1px solid black;
+    padding-left: 12px;
+}
+
+.movieCard .movsie-director {
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: bold;
+    top: -20px;
+}
